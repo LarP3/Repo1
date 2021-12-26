@@ -7,23 +7,23 @@ import java.util.Scanner;
  *then returns info.
  
  */
- class Store {
+ class Store { // class name
 	 
-	 private String name;
+	 private String name; 
 	 private String itemName;
 	 private double itemPrice;
 	 
 	 
-	 Store() {
+	 Store() { //default constructor
 		 
 	 }
-	 Store (String name , String itemName, double itemPrice) {
+	 Store (String name , String itemName, double itemPrice) { //constructor
 		 this.name = name;
 		 this.itemName = itemName;
 		 this.itemPrice = itemPrice;
 		 
 	 }
-	public String getName() {
+	public String getName() { //getters and setters
 		return name;
 	}
 	public void setName(String name) {
@@ -41,38 +41,38 @@ import java.util.Scanner;
 	public void setItemPrice(double itemPrice) {
 		this.itemPrice = itemPrice;
 	
-	}
-	public void print() {
+	} 
+	public void print() { //print info
 		System.out.println(this.getName() + " " + this.getItemName() +
 				" " + this.getItemPrice());
 	}
 	 
 	 
-}
-public class ClothingStore {
+} // end of class
+public class ClothingStore { 
 
 	
-	static double funds = 250.00;
-	public static void main(String[] args) {
+	static double funds = 250.00; // global variable
+	public static void main(String[] args) { // begin main method
 		Scanner input = new Scanner(System.in);
-		Store [] c = new Store[3];
+		Store [] c = new Store[3]; //array of class-type objects
 		
 		
 		
-		for (int i = 0; i < c.length; i++) {
+		for (int i = 0; i < c.length; i++) { //allows user to enter information for each object
 			System.out.println("Enter customer " + (i + 1) + "'s name, item name and item price:");
 			
-			c[i] = new Store(input.next(), input.next(), input.nextDouble());
-			funds = funds - c[i].getItemPrice();
+			c[i] = new Store(input.next(), input.next(), input.nextDouble()); // fill in constructor
+			funds = funds - c[i].getItemPrice(); //decrease funds
 		}
-		if (funds < 0) {
+		if (funds < 0) { //prints message if balance is exceeded
 			System.out.println("Balance exceeded");
 		}
 		
 
-		System.out.println("Remaining funds = " + funds + "\n");
+		System.out.println("Remaining funds = " + funds + "\n"); //prints remaining balance
 	
-		for (int j = 0; j < c.length; j++) {
+		for (int j = 0; j < c.length; j++) { //prints user-entered info
 			c[j].print();
 		}
 
