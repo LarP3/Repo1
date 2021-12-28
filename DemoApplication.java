@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
+
+//Sprint Quickstart guide via Spring.io.quickstart
 public class DemoApplication {
 
 public static void main(String[] args) {
