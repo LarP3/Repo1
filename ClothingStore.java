@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 
 /*File: ClothingStore.java
- *Author: Larry Frayer
- *Description: Lets user enter customer's name, item choice and price,
- *then returns info.
+ Author: Larry Frayer
+ Description: Lets user enter customer's name, item choice and price,
+ then returns info.
  
  */
  class Store {
