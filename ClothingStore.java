@@ -57,14 +57,7 @@ public class ClothingStore {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		int sum = 0;
-		int num = 5;
 		
-		while(num > 0) {
-			sum+= num;
-			num--;
-		}
-		System.out.println(sum);
 		Store [] c = new Store[3];
 		
 		
