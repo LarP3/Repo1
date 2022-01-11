@@ -1,1 +1,1 @@
-A page featuring some code.
+A page featuring some code/projects.
