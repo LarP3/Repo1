@@ -1,3 +1,4 @@
+//Digital Forensics Assignment
 package encoderhw1;
 import java.util.Scanner;
 
