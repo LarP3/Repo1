@@ -1,5 +1,5 @@
 ﻿using System;
-
+//C# rock, paper, scissors game, sourced from internet
 namespace Hello_World
 {
     class Program
@@ -9,7 +9,7 @@ namespace Hello_World
             string inputPlayer, inputCpu;
             int randomInt;
 
-            bool playAgain = true;
+            bool playAgain = true;// sentinel
 
             while (playAgain)
             {
