@@ -1,3 +1,4 @@
+//Citation: Sourced from the Sprint Quickstart guide via Spring.io.quickstart
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 
-//Sprint Quickstart guide via Spring.io.quickstart
+
 public class DemoApplication {
 
 public static void main(String[] args) {
