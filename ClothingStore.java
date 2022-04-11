@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 /*File: ClothingStore.java
  Author: Larry Frayer
- Description: Lets user enter customer's name, item choice and price,
- then returns info.
+ Description: Store program.
  
  */
  class Store {
