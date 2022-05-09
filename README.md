@@ -1,1 +1,2 @@
-A page featuring some code/projects.
+Online Portfolio.
+Features projects listed on resume & more. 
