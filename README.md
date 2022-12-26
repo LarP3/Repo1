@@ -1,2 +1,2 @@
-Online Portfolio.
-Features projects listed on resume & more. 
+Online portfolio.
+Interested in Full-Stack development
